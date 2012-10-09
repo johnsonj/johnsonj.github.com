@@ -189,10 +189,14 @@
                $buddy.removeClass('hover')
             });
 
-            $.waypoints.settings.scrollThrottle = 200;
+            $.waypoints.settings.scrollThrottle = 0;
             $('#nav-group').waypoint(function(event, direction) {
-                $(this).parent().toggleClass('sticky', direction === "down");
-                // event.stopPropagation();
+                var sticky = false
+                if (direction === "down")
+                    if ($(window).height() > ($('#sections').height() - 100))
+                        sticky = true
+                    
+                $(this).parent().toggleClass('sticky', sticky)
             });
         });
         </script>
