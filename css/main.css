@@ -101,6 +101,10 @@ body {
     letter-spacing: 1px;
     color: #F0A830;
     font-size: 22px;
+    transition: height .1s, font-size .1s;
+    -moz-transition: height .1s, font-size .1s; /* Firefox 4 */
+    -webkit-transition: height .1s, font-size .1s; /* Safari and Chrome */
+    -o-transition: height .1s, font-size .1s; /* Opera */
 }
 a, a:visited, a:hover {
     color: #F0A830;
@@ -109,7 +113,6 @@ a, a:visited, a:hover {
     width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-
 }
 .brown-back {
    background-color: #5E412F;   
@@ -133,13 +136,21 @@ a, a:visited, a:hover {
     display: inline-block;
     margin: 40px 50px 20px 0px;
     width: 320px;
-    height: 95px;
-    font-size: 83px;
+    height: 56px;
+    font-size: 60px;
     padding: 0 20px 35px 20px;
     transition: height .5s, font-size .5s;
     -moz-transition: height .5s, font-size .5s; /* Firefox 4 */
     -webkit-transition: height .5s, font-size .5s; /* Safari and Chrome */
     -o-transition: height .5s, font-size .5s; /* Opera */
+}
+.navigation i {
+    float: left;
+    margin-top: 5px;
+}
+.nav-title {
+    margin-left: 5px;
+    margin-top: -5px;
 }
 #sections {
               
