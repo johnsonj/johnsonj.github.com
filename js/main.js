@@ -21,4 +21,6 @@
 	        $('img#hover-target').attr('src', $(this).data('img-hover'))
 	    });
 	});
+
+	 $('[data-img-hover]').each(function() { (new Image()).src = $(this).data('img-hover')} );
 })();
