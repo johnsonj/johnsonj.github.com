@@ -123,9 +123,11 @@ a, a:visited, a:hover {
     letter-spacing: -4px;
     font-size: 60px;
     margin-left: 10px;
-    text-shadow: 0px 2px 3px #3C210B;
     color: #F07818;
     font: 90px Tahoma, Helvetica, Arial, Sans-Serif;
+}
+.soft-shadow {
+    text-shadow: 0px 2px 3px #3C210B;
 }
 .navigation {
     display: inline-block;

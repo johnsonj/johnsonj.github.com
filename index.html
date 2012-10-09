@@ -12,23 +12,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-        <script type="text/javascript">
-          WebFontConfig = {
-            google: { families: [ 'Orienta::latin' ] }
-          };
-          (function() {
-            var wf = document.createElement('script');
-            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-              '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.type = 'text/javascript';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-          })(); </script>
-
-        <style>
- 
-        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -39,8 +22,8 @@
         </div>
 
         <div id="container">
-            <div id="header"  class="brown-back">
-                <h1>jeff johnson</h1>
+            <div id="header" class="brown-back">
+                <h1 class="soft-shadow">jeff johnson</h1>
                 <span>I am not a web guy. I am not a software guy. I'm an engineer developing solutions for a changing world and it just so happens I speak 1's and 0's.</span>
             </div>
             <div id="nav-group">
@@ -87,37 +70,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
-        $(function() {
-            $('[data-hover-buddy]').hover(function() { 
-               buddy_name = $(this).data('hover-buddy')
-               $buddy = $(document).find('[data-hover-buddy='+buddy_name+']:not(:hover)')
-               $buddy.addClass('hover')
-            },
-            function() {
-               buddy_name = $(this).data('hover-buddy')
-               $buddy = $(document).find('[data-hover-buddy='+buddy_name+']:not(:hover)')
-               $buddy.removeClass('hover')
-            });
-
-            $.waypoints.settings.scrollThrottle = 100;
-            $('#nav-group').waypoint(function(event, direction) {
-                var sticky = false
-                if (direction === "down")
-                    if ($(window).height() < ($('#sections').height() + 100))
-                        sticky = true
-                    
-                $(this).parent().toggleClass('sticky', sticky)
-            });
-
-            $(document).on('hover', '[data-img-hover]', function() { 
-                $('img#hover-target').attr('src', $(this).data('img-hover'));
-            });
-        });
-
-        var _gaq=[['_setAccount','UA-35381532-1'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
+       
         </script>
     </body>
 </html>
