@@ -11,6 +11,21 @@ if (!(window.console && console.log)) {
     }());
 }
 
+
+var _gaq=[['_setAccount','UA-35381532-1'],['_trackPageview']]
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0]
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js'
+s.parentNode.insertBefore(g,s)}(document,'script'))
+
+WebFontConfig = {google: { families: [ 'Orienta::latin' ] }}
+var wf = document.createElement('script')
+wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'
+wf.type = 'text/javascript'
+wf.async = 'true'
+var s = document.getElementsByTagName('script')[0]
+s.parentNode.insertBefore(wf, s)
+
 /*
 jQuery Waypoints - v1.1.7
 Copyright (c) 2011-2012 Caleb Troughton
