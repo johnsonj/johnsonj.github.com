@@ -197,19 +197,25 @@ a, a:visited, a:hover {
 
 .photo-display {
     float: right; 
-    border-bottom: solid 1px; 
-    border-right: solid 1px;
+    margin-top: -5px; 
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.photo-display img {
     width: 325px; 
     height: 260px; 
-    margin-top: 30px; 
-    margin-right: 30px
+    border-bottom: solid 1px; 
+    border-right: solid 1px;
+}
+.subsection {
+    min-height: 290px;
 }
 
 .subsection .heading {
     border-bottom: solid 1px;
     width: 850px;
     height: 63px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .subsection .header {
