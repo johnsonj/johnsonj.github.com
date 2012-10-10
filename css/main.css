@@ -205,6 +205,22 @@ a, a:visited, a:hover {
     margin-right: 30px
 }
 
+.subsection .heading {
+    border-bottom: solid 1px;
+    width: 850px;
+    height: 63px;
+    margin-bottom: 5px;
+}
+
+.subsection .header {
+    display: inline-block;
+}
+.subsection .aside {
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+
 
 /* ==========================================================================
    Helper classes
