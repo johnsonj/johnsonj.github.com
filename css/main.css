@@ -152,6 +152,9 @@ a, a:visited, a:hover {
     margin-left: 5px;
     margin-top: -5px;
 }
+#nav-group a {
+    text-decoration: none;
+}
 #sections {
               
 }
