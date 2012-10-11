@@ -7,8 +7,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>hacker, entrepreneur, engineer | johnsonjeff.com</title>
-        <meta name="description" content="eHome of Jeff Johnson, Chicago Entrepreneur, Electrical Engineering Student, and wannabe triathlete">
+        <meta name="description" content="eHome of Jeff Johnson. Chicago Entrepreneur, Electrical Engineering Student, and wannabe triathlete">
         <meta name="viewport" content="width=device-width">
+
+        <meta name="og:url" content="http://johnsonjeff.com/">
+        <meta name="og:title" content="hacker, entrepreneur, engineer | johnsonjeff.com">
+        <meta name="og:description" content="eHome of Jeff Johnson. Chicago Entrepreneur, Electrical Engineering Student, and wannabe triathlete">
+        <meta name="og:omage" content="http://www.gravatar.com/avatar/4dc65175276dfc51dd6dbd527fa30f62?s=200">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-awesome.css">
@@ -24,18 +30,19 @@
         </div>
 
         <div id="container">
-            <div id="header" class="brown-back">
+            <div id="header" class="brown-back" itemscope itemtype="http://data-vocabulary.org/Person">
                 <div id="aside">
-                    <span id="social" class="">
+                    <span id="social" itemprop="contact">
                         <a href="https://www.facebook.com/johnsonjeffreyr" target="_blank"><i class="icon-facebook"></i></a><br>
                         <a href="https://twitter.com/jeffinhat" target="_blank"><i class="icon-twitter"></i></a><br>
                         <a href="http://www.linkedin.com/pub/jeffrey-johnson/2a/958/476" target="_blank"><i class="icon-linkedin"></i></a><br>
                         <a href="https://github.com/johnsonj" target="_blank"><i class="icon-github"></i></a><br>
+                        <a href="https://plus.google.com/u/0/113665003638690902308" target="_blank" rel="author"><i class="icon-google-plus"></i></a><br>
                     </span>
-                    <img class="subtle-outline" src="http://www.gravatar.com/avatar/4dc65175276dfc51dd6dbd527fa30f62?s=200">
+                    <img class="subtle-outline" src="http://www.gravatar.com/avatar/4dc65175276dfc51dd6dbd527fa30f62?s=200" itemprop="photo">
                 </div>
-                <h1 class="soft-shadow">jeff johnson</h1>
-                <span>I am not a web guy. I am not a software guy. I am an engineer developing solutions for a changing world and it just so happens I speak 1's and 0's</span>
+                <h1 class="soft-shadow" itemprop="name">jeff johnson</h1>
+                <span>I am not a web guy. I am not a software guy. I am an <span itemprop="title">engineer</span> in <span itemprop="address">chicago</span> developing solutions for a changing world and it just so happens I speak 1's and 0's</span>
             </div>
                 <nav id="nav-group">
                     <a href="#projects" class="navigation brown-back clickable" data-hover-buddy="projects">
@@ -53,68 +60,68 @@
 
                     <h2>projects</h2>
                     
-                    <article class="subsection">
+                    <article class="subsection" itemscope itemtype="http://schema.org/SoftwareApplication">
                         <div class="photo-display">
                             <img class="subtle-outline" src="img/cbug.png">
                         </div>
                         <div class="heading">
                             <h3 class="header">
-                                <a href="http://classbug.com/" target="_blank">ClassBug.com</a>
+                                <a href="http://classbug.com/" target="_blank" itemprop="name">ClassBug.com</a>
                             </h3>
                             <span class="aside">
                                 ruby on rails, postgresql, coffeescript
                             </span>
                         </div>
-                        <span class="copy">
+                        <span class="copy" itemprop="description">
                             Chicago-based startup developing SaaS scheduling, CRM, and studio management software for leisure class providers. Developed Ruby on Rails application with the help of countless gems, test driven development, and my CoFounder/Designer.
                         </span>
                     </article>
-                    <article class="subsection">
+                    <article class="subsection"  itemscope itemtype="http://schema.org/SoftwareApplication">
                         <div class="photo-display">
                             <img class="subtle-outline" src="img/cfill.png">
                         </div>                        
                         <div class="heading">
                             <h3 class="header">
-                                <a href="http://classfill.com/" target="_blank">ClassFill.com</a>
+                                <a href="http://classfill.com/" target="_blank" itemprop="name">ClassFill.com</a>
                             </h3>
                             <span class="aside">
                                 php, mysql, codeigniter
                             </span>
                         </div>
-                        <span class="copy">
+                        <span class="copy"  itemprop="description">>
                             Changing the way soccer moms book yoga, one class at a time. ClassFill provides a name-your-price online marketplace for leisure classes in Chicago. Developed in PHP using CodeIgniter as a framework with some fun libraries such as jsrender.
                         </span>
                     </article>
-                    <article class="subsection">
+                    <article class="subsection" itemscope itemtype="http://schema.org/SoftwareApplication">
                         <div class="photo-display">
                             <img class="subtle-outline" src="img/ipro.png">
                         </div>                         
                         <div class="heading">
-                            <h3 class="header">
+                            <h3 class="header" itemprop="name">
                                 Playing games with Epidemiology 
                             </h3>
                             <span class="aside">
                                 ruby on rails, ios, hadoop
                             </span>
                         </div>
-                        <span class="copy">
+                        <span class="copy" itemprop="description">
                             Modeling the spread of diseases through real contact graphs generated by usage of a iOS based mobile phone game. Used developing technologies and ideas in epidemiology to add fine-grain detail to a high level field. Developed Ruby on Rails web interface and API for mobile phone and hadoop components thanks to a wonderful team and strong support from our <a href="http://cs.iit.edu/~lee/" target="_blank">advisor</a>. Awarded Best in Track Fall 2012.
                         </span>
                     </article>  
 
-                    <article class="subsection" data-img-hover="img/esw1.png">
+                    <article class="subsection" data-img-hover="img/esw1.png"  itemscope itemtype="http://schema.org/SoftwareApplication">
                         <div class="photo-display">
                             <img class="subtle-outline" src="img/esw1.png">
                         </div>                          
                         <div class="heading">
                             <h3 class="header">
-                                <a href="http://eswiit.org/" target="_blank">ESW@iit </a>
+                                <a href="http://eswiit.org/" target="_blank"  itemprop="name">ESW@iit </a>
                             </h3>
                             <span class="aside">
                                 locomotive cms, ruby on rails
                             </span>
                         </div>
-                        <span class="copy">
+                        <span class="copy" itemprop="description">
                             Designed and implemented website for local chapter of national sustainability organization. Leveraged LocomotiveCMS to ensure maintainability of website down the road. Graphic work thanks to Christina Noonan. 
                         </span>
                     </article>  
@@ -134,19 +141,19 @@
                             Homepage and homebase for week long celebration of sustainability. First serious design project.
                         </span>
                     </article>                     
-                     <article class="subsection" data-img-hover="img/jquery-color-field.png">
+                     <article class="subsection" data-img-hover="img/jquery-color-field.png"  itemscope itemtype="http://schema.org/SoftwareApplication">
                         <div class="photo-display">
                             <img class="subtle-outline" src="img/jquery-color-field.png">
                         </div>                          
                         <div class="heading">
                             <h3 class="header">
-                                <a href="https://github.com/johnsonj/jquery-color-field" target="_blank">jQuery Color Field</a>
+                                <a href="https://github.com/johnsonj/jquery-color-field" target="_blank"   itemprop="name">jQuery Color Field</a>
                             </h3>
                             <span class="aside">
                                 coffeescript, opensource
                             </span>
                         </div>
-                        <span class="copy">
+                        <span class="copy" itemprop="description">
                             It's nice to color code stuff, but it should only add to the users experience. This plugin is an attempt at a sublte method for closing the gap between the entity the color is related to and the selection of that color. Work in progress.
                         </span>
                     </article> 
