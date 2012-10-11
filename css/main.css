@@ -250,7 +250,32 @@ a, a:visited, a:hover {
     letter-spacing: 4px;
 }
 
+.no_decoration {
+    text-decoration: none;
+}
+.contact {
 
+}
+.contact .title {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.btn {
+    background-color: #F07818;
+    background-image: -webkit-linear-gradient(top, #E48031, #F07818);
+    border-radius: 4px;
+    padding: 4px;
+    /*text-shadow: #EED8B3 0px 1px 0px;*/
+    color: #5E412F !important;
+    box-shadow: 1px 1px 5px #2C1C13;
+    margin-top: 8px;
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;  
+}
+.btn:hover {
+    background-image: none;
+}
 
 /* ==========================================================================
    Helper classes
