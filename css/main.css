@@ -129,7 +129,7 @@ a, a:visited, a:hover {
     color: #F07818;
     font: 90px Tahoma, Helvetica, Arial, Sans-Serif;
 }
-#header #aside {
+#header #right-aside {
     float: right;
     margin-top: 10px;
     margin-right: 10px;
