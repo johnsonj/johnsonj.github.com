@@ -338,9 +338,41 @@ a, a:visited, a:hover {
    Theses examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (max-width: 1200px) {
+      #container {
+        width: 100%;
+    }
+    #nav-group {
+        width: 100%;
+        text-align: center;
+        a {
+            width: 15%;
+            margin-right: 5%;
+            margin-left: 5%;
+            font-size: 35px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            height: 40px;
+            text-align: left;
+        }
+    }
+    #container.sticky #nav-group a {
+        font-size: 25px;
+    }
+}
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 650px) {
     /* Style adjustments for viewports that meet the condition */
+    .photo-display {
+        float: none;
+    }
+    .subsection .copy {
+        width: 100%;
+    }
+  
+    #container.sticky #nav-group a {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
