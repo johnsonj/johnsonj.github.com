@@ -346,32 +346,68 @@ a, a:visited, a:hover {
         width: 100%;
         text-align: center;
         a {
-            width: 15%;
-            margin-right: 5%;
-            margin-left: 5%;
-            font-size: 35px;
+            width: 19%;
+            margin-right: 4%;
+            margin-left: 4%;
+            font-size: 25px;
             margin-top: 30px;
             margin-bottom: 10px;
-            height: 40px;
+            height: 20px;
             text-align: left;
         }
     }
-    #container.sticky #nav-group a {
-        font-size: 25px;
+    #container.sticky {
+        #nav-group a {
+            font-size: 25px;
+            height: 20px;
+        }
+        #sections {
+            margin-top: 120px;
+        }
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 720px) {
     /* Style adjustments for viewports that meet the condition */
     .photo-display {
         float: none;
     }
-    .subsection .copy {
+    .subsection {
+        .copy {
+            width: 100%;
+        }
+        .heading {
+            width: 100%;
+        }
+    }
+
+    #nav-group {
         width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: -15px;
+        a {
+            width: 100%;
+            margin: 0;
+            font-size: 20px;
+            height: 10px;
+            padding-bottom: 20px;
+            text-align: left;
+        }
     }
   
-    #container.sticky #nav-group a {
-        font-size: 20px;
+    #container.sticky {
+        #nav-group {
+            margin-top: 0;
+            a {
+                i { float: none; }
+                font-size: 20px;
+                width: 10%;
+                text-align: center;
+                padding-bottom: 15px;
+                span { display: none; }
+            }
+        }
     }
 }
 

@@ -299,27 +299,54 @@ a, a:visited, a:hover {
     width: 100%;
     text-align: center; }
     #nav-group a {
-      width: 15%;
-      margin-right: 5%;
-      margin-left: 5%;
-      font-size: 35px;
+      width: 19%;
+      margin-right: 4%;
+      margin-left: 4%;
+      font-size: 25px;
       margin-top: 30px;
       margin-bottom: 10px;
-      height: 40px;
+      height: 20px;
       text-align: left; }
 
   #container.sticky #nav-group a {
-    font-size: 25px; } }
-@media only screen and (max-width: 650px) {
+    font-size: 25px;
+    height: 20px; }
+  #container.sticky #sections {
+    margin-top: 120px; } }
+@media only screen and (max-width: 720px) {
   /* Style adjustments for viewports that meet the condition */
   .photo-display {
     float: none; }
 
   .subsection .copy {
     width: 100%; }
+  .subsection .heading {
+    width: 100%; }
 
-  #container.sticky #nav-group a {
-    font-size: 20px; } }
+  #nav-group {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -15px; }
+    #nav-group a {
+      width: 100%;
+      margin: 0;
+      font-size: 20px;
+      height: 10px;
+      padding-bottom: 20px;
+      text-align: left; }
+
+  #container.sticky #nav-group {
+    margin-top: 0; }
+    #container.sticky #nav-group a {
+      font-size: 20px;
+      width: 10%;
+      text-align: center;
+      padding-bottom: 15px; }
+      #container.sticky #nav-group a i {
+        float: none; }
+      #container.sticky #nav-group a span {
+        display: none; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================
