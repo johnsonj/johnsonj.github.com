@@ -47,7 +47,7 @@ textarea {
 
 // Generic:
 .soft-shadow {
-    text-shadow: 0px 2px 3px #3C210B;
+    text-shadow: 0px 2px 3px #A0A0A0;
 }
 
 .clickable {
@@ -63,18 +63,18 @@ textarea {
 }
 // Specific
 body {
-    background-color: #FCEBB6;
+    background-color: white;
     font-family: 'Orienta', sans-serif;
     letter-spacing: 1px;
-    color: #F0A830;
-    font-size: 22px;
+    color: #3B84C1;
+    font-size: 18px;
     transition: height .1s, font-size .1s;
     -moz-transition: height .1s, font-size .1s; /* Firefox 4 */
     -webkit-transition: height .1s, font-size .1s; /* Safari and Chrome */
     -o-transition: height .1s, font-size .1s; /* Opera */
 }
 a, a:visited, a:hover {
-    color: #F0A830;
+    color: #3B84C1;
 }
 #container {
     width: 1200px;
@@ -82,9 +82,9 @@ a, a:visited, a:hover {
     margin-top: 40px;
 }
 .brown-back {
-   background-color: #5E412F;   
-   border-right: solid 2px #3C210B;
-   border-bottom: solid 2px #3C210B;  
+   background-color: #DADADB;   
+   border-right: solid 2px #A0A0A0;
+   border-bottom: solid 2px #A0A0A0;  
 }
 #header {
     padding: 15px;
@@ -92,7 +92,7 @@ a, a:visited, a:hover {
         letter-spacing: -4px;
         font-size: 60px;
         margin-left: 10px;
-        color: #F07818;
+        color: #F49C00;
         font: 90px Tahoma, Helvetica, Arial, Sans-Serif;
     }
     #right-aside {
@@ -108,7 +108,7 @@ a, a:visited, a:hover {
             text-decoration: none;
         }
         i:hover {
-            color: #F07818;
+            color: #F49C00;
         }
     }
     #mission-statement {
@@ -145,10 +145,11 @@ a, a:visited, a:hover {
 #nav-group a {
     text-decoration: none;
 }
+/*
 #container.sticky { 
     #nav-group {
         position: fixed; top: 0;
-        background-color: #FCEBB6;
+        background-color: white;
     }
     .navigation {   
         margin-top: 0px;
@@ -159,11 +160,11 @@ a, a:visited, a:hover {
         margin-top: 170px;
     }
 }
-
+*/
 .section {
     margin-bottom: 40px;
     padding-left: 20px;
-    color: #F07818;
+    color: #3B84C1;
     padding-bottom: 20px;
     h2 {
         margin-left: 20px;
@@ -172,7 +173,7 @@ a, a:visited, a:hover {
     }
     &:hover, &.hover {
         h2 {
-            color: #78C0A8;
+            color: #3B84C1;
             &:before {
                 content: '->';
                 margin-right: 5px;
@@ -212,12 +213,14 @@ a, a:visited, a:hover {
     .title {
     font-size: 1.17em;
     font-weight: bold;
+    height: 30px;
+    margin-top: 10px;
     }
 }
 
 .btn {
-    background-color: #F07818;
-    background-image: -webkit-linear-gradient(top, #E48031, #F07818);
+    background-color: #F49C00;
+    background-image: -webkit-linear-gradient(top, #3B84C1, #7FCEF4);
     border-radius: 4px;
     padding: 4px;
     /*text-shadow: #EED8B3 0px 1px 0px;*/
