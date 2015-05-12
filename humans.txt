@@ -1,15 +1,8 @@
-# TEAM
-
-    Jeff Johnson -- Most of the things -- @jeffinhat
-    Michael Coreless -- Design Advice. The architecture who lives in the basement. 
-
-
 # THANKS
 
-    Jack/Jaynna Johnson -- For the perfect name
+    Jack/Jaynna Johnson -- Shout out to Mom and Dad.
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML5, SCSS, Modernizr
     HTML5 Boilerplate
