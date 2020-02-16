@@ -64,12 +64,14 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: black url("/img/camping.jpg") center center no-repeat;
+  background: black url("/img/biking.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position-y: -10px; }
+  background-position-y: 50%;
+  background-position-x: 50%;
+}
 
 .light-background {
   background-color: white;
