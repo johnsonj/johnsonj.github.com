@@ -1,8 +1,0 @@
-# THANKS
-
-    Jack/Jaynna Johnson -- Shout out to Mom and Dad.
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, SCSS, Modernizr
-    HTML5 Boilerplate
