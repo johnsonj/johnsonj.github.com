@@ -1,1 +1,1 @@
-View published site: [johnsonjeff.com](http://johnsonjeff.com]
+View published site: [johnsonjeff.com](http://johnsonjeff.com)
